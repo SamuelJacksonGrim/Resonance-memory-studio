@@ -6695,6 +6695,27 @@ async function asyncTests() {
       "self-heal is the version mismatch on next read, not an invalidation event");
     assert.ok(fs.existsSync(edgesPath), "Writes? yes (reactivation is the one edit write)");
   });
+
+  // ------------------------------------------------ 4.0b Hermes Fire-Together sim (RFC 0011 §7.2)
+  await atest("4.0b Hermes fire-together simulation: corpus structure and pre-declared bands", async () => {
+    const { runSimulation, CORPUS_PATH } = require("./eval/substrate/fire-together-sim.js");
+    assert.ok(fs.existsSync(CORPUS_PATH), "fire-together corpus file exists");
+    const corpus = JSON.parse(fs.readFileSync(CORPUS_PATH, "utf8"));
+    assert.strictEqual(corpus.version, "4.0b-hermes-v1");
+    assert.strictEqual(corpus.themes.length, 5);
+    assert.strictEqual(corpus.records.length, 25);
+    assert.strictEqual(corpus.queries.length, 525);
+    assert.strictEqual(corpus.true_pairs.length, 15);
+    assert.strictEqual(corpus.near_miss_pairs.length, 15);
+    assert.strictEqual(corpus.unrelated_pairs.length, 270);
+
+    const results = runSimulation(corpus);
+    assert.strictEqual(results.hypotheses.H1_retrieval.status, "PASS");
+    assert.ok(results.hypotheses.H1_retrieval.paraphrase_rate >= 0.80);
+    assert.strictEqual(results.hypotheses.H4_leakage.status, "PASS");
+    assert.ok(results.hypotheses.H4_leakage.mean_rate <= 0.05);
+    assert.strictEqual(results.hypotheses.H5_edge_delta.status, "PASS");
+  });
 }
 
 // ------------------------------------------------------------------- report

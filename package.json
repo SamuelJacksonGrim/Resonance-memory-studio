@@ -23,7 +23,8 @@
     "eval": "node eval/run.js",
     "measure": "node eval/measure.js",
     "scale": "node eval/substrate/scale.js",
-    "soak": "node eval/soak/run.js"
+    "soak": "node eval/soak/run.js",
+    "fire-together": "node eval/substrate/fire-together-sim.js"
   },
   "repository": {
     "type": "git",

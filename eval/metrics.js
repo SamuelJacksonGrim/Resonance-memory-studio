@@ -1434,6 +1434,27 @@ register({
   explain: nearMissCofireStats,
 });
 
+function leakageCofireStats(results, corpus, opts) {
+  const matrix = results && results.cofire;
+  const pairs = (results && results.unrelated_pairs) || (corpus && corpus.unrelated_pairs);
+  if (!matrix && !Array.isArray(results && results.cofire_events)) {
+    return Object.assign(naResult("no cofire matrix (4.0b sim)"), { mean: null });
+  }
+  if (!pairs || !pairs.length) return Object.assign(naResult("no unrelated pairs"), { mean: null });
+  return cofireStats({
+    cofire: matrix,
+    true_pairs: pairs,
+    cofire_events: results.cofire_events,
+  }, corpus, opts);
+}
+
+register({
+  name: "leakage_cofire",
+  description: "4.0b: mean cofire of unrelated (no-theme, no-near-miss) pairs. NA until the fire-together sim.",
+  compute(results, corpus, opts) { return leakageCofireStats(results, corpus, opts).rate; },
+  explain: leakageCofireStats,
+});
+
 module.exports = {
   scoreSingle, scoreRepeat, containsAll, fieldSignals,
   register, getMetric, listMetrics, computeMetric, explainMetric, computeAll,
