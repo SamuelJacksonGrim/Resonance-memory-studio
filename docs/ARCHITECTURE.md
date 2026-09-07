@@ -391,7 +391,7 @@ similarity floor (~0.45) that made a global threshold connect everything. Three 
 
 "Fire together, wire together." One persistent sidecar (`<store>.edges.json`) holding both
 signals. Phase 0.1 persists save-time semantic neighbors here (K=5, min cosine 0.25,
-Hebbian weight 0); **recall still rebuilds semantic kNN in `field.js`** (minSim 0.55) and
+Hebbian weight 0); **recall still rebuilds semantic kNN in `field.js`** (minSim 0.70) and
 does not read the cached semantic signal yet. The two cosine thresholds are deliberate
 (Risk #2): recall's 0.55 is what the model *sees*, save's 0.25 is what is *worth writing*.
 The learned Hebbian weight lives on the edge record and is the source of truth. Safety
@@ -531,7 +531,8 @@ All environment variables, read at startup:
 | `RESONANCE_MEMORY_FIELD` | off | default field state when no config file exists |
 | `RESONANCE_FIELD_MUTUAL` | on | reciprocal-kNN topology (`0` → directional) |
 | `RESONANCE_FIELD_KSEARCH` | 15 | internal search radius for constraint rescue |
-| `RESONANCE_CONSTRAINT_GATE` | 0.45 | min cosine for a constraint↔seed bridge |
+| `RESONANCE_FIELD_MINSIM` | 0.70 | Related: kNN floor (live-config `field_minsim` wins) |
+| `RESONANCE_CONSTRAINT_GATE` | 0.45 | min cosine for a constraint↔seed bridge (live-config `constraint_gate` wins) |
 | `RESONANCE_MEMORY_PANEL_PORT` | 9090 | control-panel port (127.0.0.1 only) |
 | `RESONANCE_EXTRACT_LLM` | off | default Tier 2 state when no config file exists |
 | `RESONANCE_EXTRACT_MODEL` | auto (first non-embed) | preferred chat model id for Tier 2 |
