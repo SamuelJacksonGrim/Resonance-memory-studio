@@ -24,7 +24,7 @@ as of the Effective Date by and between:
   ("**Licensee**").
 
 **Effective Date:** `[Date]`
-**Software:** the software project **"Resonance Memory"** and its source code, in the
+**Software:** the software project **"Resonance Memory Studio"** and its source code, in the
 version delivered or identified in an Order (the "**Software**").
 
 ## 1. Background
@@ -219,7 +219,7 @@ Email: ____________________   Date: ____________________
 
 | Item | Value |
 |---|---|
-| Software & version | Resonance Memory `[vX.Y / commit]` |
+| Software & version | Resonance Memory Studio `[vX.Y / commit]` |
 | License type | `[perpetual / annual subscription / royalty]` |
 | Fee | `[amount / currency / cadence]` |
 | Support & Updates | `[scope]` |

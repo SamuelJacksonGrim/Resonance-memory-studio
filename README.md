@@ -1,5 +1,13 @@
 # Resonance Memory
 
+[![License: AGPL-3.0-only](https://img.shields.io/badge/license-AGPL--3.0--only-blue)](LICENSE)
+[![dual-license](https://img.shields.io/badge/dual--license-AGPL--3.0--only%20or%20commercial-blueviolet)](LICENSING.md)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
+[![Node.js](https://img.shields.io/badge/node-%3E%3D22.5-339933?logo=nodedotjs&logoColor=white)](package.json)
+[![MCP server](https://img.shields.io/badge/MCP-server-111111)](https://modelcontextprotocol.io/)
+![status](https://img.shields.io/badge/status-experimental-success)
+
+
 **A lasting memory for your local AI — one that actually remembers you, and never leaves your machine.**
 
 Your local model is smart, but it has amnesia. Close the chat and it forgets everything: your
@@ -180,7 +188,7 @@ embedding model can be swapped in — it isn't tied to one vendor.
 
 ## License
 
-AGPL-3.0 — see [`LICENSE`](LICENSE). Use it, fork it, build on it — just keep your version open too.
+Dual-licensed: [AGPL-3.0-only](LICENSE) or a [commercial license](LICENSING.md). Use it, fork it, build on it — just keep your version open too.
 
 ---
 

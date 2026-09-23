@@ -54,7 +54,7 @@ Contact the copyright holder to arrange a commercial license:
 
 - **Licensor:** Samuel Jackson Grim
 - **Email:** collectiveaifamily@gmail.com
-- **Subject line:** `Commercial license — Resonance Memory`
+- **Subject line:** `Commercial license — Resonance Memory Studio`
 
 Please include:
 
