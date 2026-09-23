@@ -1,6 +1,6 @@
 # Individual Contributor License Agreement ("Agreement")
 
-**Project:** Resonance Memory
+**Project:** Resonance Memory Studio
 **Licensor / Project owner:** Samuel Jackson Grim ("we", "us")
 **Version:** 1.0
 
@@ -105,7 +105,7 @@ that would make these representations inaccurate in any respect.
 | Date | ____________________________ |
 | Signature | ____________________________ |
 
-*Return a signed copy to: Samuel Jackson Grim — collectiveaifamily@gmail.com,
+*Return a signed copy to: Samuel Jackson Grim — samgrim97@gmail.com,
 or record your agreement in your pull request exactly as `CONTRIBUTING.md`
 describes.*
 

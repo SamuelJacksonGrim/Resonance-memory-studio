@@ -1,6 +1,6 @@
 # Authorship Record
 
-**Work:** Resonance Memory
+**Work:** Resonance Memory Studio
 **Human author and sole copyright holder:** Samuel Jackson Grim
 **Last updated:** 2026-08-18
 

@@ -1,6 +1,6 @@
 # Legal Basis for Dual Licensing
 
-**Project:** Resonance Memory
+**Project:** Resonance Memory Studio
 **Copyright holder / Licensor:** Samuel Jackson Grim
 **Last updated:** 2026-08-18
 

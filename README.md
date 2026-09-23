@@ -7,6 +7,15 @@
 [![MCP server](https://img.shields.io/badge/MCP-server-111111)](https://modelcontextprotocol.io/)
 ![status](https://img.shields.io/badge/status-experimental-success)
 
+## License
+
+This project is dual-licensed under **AGPL-3.0-only** OR a commercial license.
+
+- [LICENSE](LICENSE) — GNU AGPL-3.0-only (the free track)
+- [LICENSING.md](LICENSING.md) — how the two tracks work
+- [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md) — the commercial agreement
+- [NOTICE](NOTICE) — copyright, SPDX identifier, and provenance
+
 
 **A lasting memory for your local AI — one that actually remembers you, and never leaves your machine.**
 
@@ -186,7 +195,7 @@ You download it separately through LM Studio; it is **not** distributed with thi
 Resonance Memory talks to it over a standard `/v1/embeddings` interface, so any compatible
 embedding model can be swapped in — it isn't tied to one vendor.
 
-## License
+## License details
 
 Dual-licensed: [AGPL-3.0-only](LICENSE) or a [commercial license](LICENSING.md). Use it, fork it, build on it — just keep your version open too.
 
