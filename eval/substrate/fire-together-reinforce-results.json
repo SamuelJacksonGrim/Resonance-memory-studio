@@ -1,0 +1,113 @@
+{
+  "experiment": "fire-together reinforcement accumulation",
+  "date": "2026-09-06",
+  "embedder": "text-embedding-nomic-embed-text-v1.5 (LM Studio :1234)",
+  "corpus": {
+    "records": 25,
+    "haystack": 300,
+    "total": 325,
+    "queries": 525,
+    "deterministic_hayseed": "seed=42"
+  },
+  "simulation": {
+    "sessions_per_theme": 10,
+    "themes_cycled": 5,
+    "total_reinforce_steps": 50,
+    "protocol": "cycle through themes; each session runs ALL theme-member queries; each query -> recall -> reinforceRecall(topK); measure edgeStore bonuses after each session block"
+  },
+  "single_query_baseline": {
+    "true_pair_cofire": 0.1556,
+    "near_miss_cofire": 0.1081,
+    "unrelated_cofire": 0.0034,
+    "true_near_ratio": 1.44
+  },
+  "edgeStore_bonus_convergence": {
+    "description": "Per-theme average edgeStore bonus over 10 sessions of reinforcement",
+    "morning-drink": [
+      {"session": 0, "true_bonus": 0.060000, "nm_bonus": 0.060000, "ratio": 1.00},
+      {"session": 1, "true_bonus": 0.300000, "nm_bonus": 0.257475, "ratio": 1.17},
+      {"session": 2, "true_bonus": 0.300000, "nm_bonus": 0.272223, "ratio": 1.10},
+      {"session": 3, "true_bonus": 0.300000, "nm_bonus": 0.282978, "ratio": 1.06},
+      {"session": 4, "true_bonus": 0.300000, "nm_bonus": 0.290019, "ratio": 1.03},
+      {"session": 5, "true_bonus": 0.300000, "nm_bonus": 0.294309, "ratio": 1.02},
+      {"session": 6, "true_bonus": 0.300000, "nm_bonus": 0.296808, "ratio": 1.01},
+      {"session": 7, "true_bonus": 0.300000, "nm_bonus": 0.298227, "ratio": 1.01},
+      {"session": 8, "true_bonus": 0.300000, "nm_bonus": 0.299020, "ratio": 1.00},
+      {"session": 9, "true_bonus": 0.300000, "nm_bonus": 0.299460, "ratio": 1.00}
+    ],
+    "climbing": [
+      {"session": 0, "true_bonus": 0.120000, "nm_bonus": 0.119996, "ratio": 1.00},
+      {"session": 1, "true_bonus": 0.300000, "nm_bonus": 0.257479, "ratio": 1.17},
+      {"session": 2, "true_bonus": 0.300000, "nm_bonus": 0.272223, "ratio": 1.10},
+      {"session": 3, "true_bonus": 0.300000, "nm_bonus": 0.282978, "ratio": 1.06},
+      {"session": 4, "true_bonus": 0.300000, "nm_bonus": 0.290019, "ratio": 1.03},
+      {"session": 5, "true_bonus": 0.300000, "nm_bonus": 0.294309, "ratio": 1.02},
+      {"session": 6, "true_bonus": 0.300000, "nm_bonus": 0.296808, "ratio": 1.01},
+      {"session": 7, "true_bonus": 0.300000, "nm_bonus": 0.298227, "ratio": 1.01},
+      {"session": 8, "true_bonus": 0.300000, "nm_bonus": 0.299020, "ratio": 1.00},
+      {"session": 9, "true_bonus": 0.300000, "nm_bonus": 0.299460, "ratio": 1.00}
+    ],
+    "sister-naima": [
+      {"session": 0, "true_bonus": 0.180000, "nm_bonus": 0.179996, "ratio": 1.00},
+      {"session": 1, "true_bonus": 0.300000, "nm_bonus": 0.257479, "ratio": 1.17},
+      {"session": 2, "true_bonus": 0.300000, "nm_bonus": 0.272223, "ratio": 1.10},
+      {"session": 3, "true_bonus": 0.300000, "nm_bonus": 0.282978, "ratio": 1.06},
+      {"session": 4, "true_bonus": 0.300000, "nm_bonus": 0.290019, "ratio": 1.03},
+      {"session": 5, "true_bonus": 0.300000, "nm_bonus": 0.294309, "ratio": 1.02},
+      {"session": 6, "true_bonus": 0.300000, "nm_bonus": 0.296808, "ratio": 1.01},
+      {"session": 7, "true_bonus": 0.300000, "nm_bonus": 0.298227, "ratio": 1.01},
+      {"session": 8, "true_bonus": 0.300000, "nm_bonus": 0.299020, "ratio": 1.00},
+      {"session": 9, "true_bonus": 0.300000, "nm_bonus": 0.299460, "ratio": 1.00}
+    ],
+    "bookshelf": [
+      {"session": 0, "true_bonus": 0.240000, "nm_bonus": 0.239996, "ratio": 1.00},
+      {"session": 1, "true_bonus": 0.300000, "nm_bonus": 0.257479, "ratio": 1.17},
+      {"session": 2, "true_bonus": 0.300000, "nm_bonus": 0.272223, "ratio": 1.10},
+      {"session": 3, "true_bonus": 0.300000, "nm_bonus": 0.282978, "ratio": 1.06},
+      {"session": 4, "true_bonus": 0.300000, "nm_bonus": 0.290019, "ratio": 1.03},
+      {"session": 5, "true_bonus": 0.300000, "nm_bonus": 0.294309, "ratio": 1.02},
+      {"session": 6, "true_bonus": 0.300000, "nm_bonus": 0.296808, "ratio": 1.01},
+      {"session": 7, "true_bonus": 0.300000, "nm_bonus": 0.298227, "ratio": 1.01},
+      {"session": 8, "true_bonus": 0.300000, "nm_bonus": 0.299020, "ratio": 1.00},
+      {"session": 9, "true_bonus": 0.300000, "nm_bonus": 0.299460, "ratio": 1.00}
+    ],
+    "allergy": [
+      {"session": 0, "true_bonus": 0.300000, "nm_bonus": 0.257475, "ratio": 1.17},
+      {"session": 1, "true_bonus": 0.300000, "nm_bonus": 0.272223, "ratio": 1.10},
+      {"session": 2, "true_bonus": 0.300000, "nm_bonus": 0.282978, "ratio": 1.06},
+      {"session": 3, "true_bonus": 0.300000, "nm_bonus": 0.290019, "ratio": 1.03},
+      {"session": 4, "true_bonus": 0.300000, "nm_bonus": 0.294309, "ratio": 1.02},
+      {"session": 5, "true_bonus": 0.300000, "nm_bonus": 0.296808, "ratio": 1.01},
+      {"session": 6, "true_bonus": 0.300000, "nm_bonus": 0.298227, "ratio": 1.01},
+      {"session": 7, "true_bonus": 0.300000, "nm_bonus": 0.299020, "ratio": 1.00},
+      {"session": 8, "true_bonus": 0.300000, "nm_bonus": 0.299460, "ratio": 1.00},
+      {"session": 9, "true_bonus": 0.300000, "nm_bonus": 0.299703, "ratio": 1.00}
+    ]
+  },
+  "final_edgeStore": {
+    "true_avg_bonus": 0.3000,
+    "nm_avg_bonus": 0.2997,
+    "unrelated_avg_bonus": 0.0368,
+    "true_near_ratio": 1.00,
+    "true_near_delta": 0.0003
+  },
+  "final_cofire": {
+    "true_rate": 0.1556,
+    "nm_rate": 0.1081,
+    "un_rate": 0.0034,
+    "true_near_ratio": 1.44
+  },
+  "per_theme_near_miss_top_k_rate": {
+    "morning-drink": 0.113,
+    "climbing": 0.130,
+    "sister-naima": 0.150,
+    "bookshelf": 0.154,
+    "allergy": 0.020
+  },
+  "conclusions": {
+    "single_query": "True pairs co-fire at 15.56% vs near-misses at 10.81% (1.44x). The gap is real but narrow — near-misses fire at ~70% the rate of true pairs.",
+    "reinforcement": "Hebbian accumulation DOES NOT sharpen the gradient. After 10 sessions of reinforcement per theme, the edgeStore bonus for near-misses converges to 1.00x of true pairs. The initial advantage is erased because near-misses appear in top-k at 10-15% rate during theme-member queries, and reinforceRecall() reinforces all pairs in top-k indiscriminately.",
+    "verdict": "RM's associative bet is NOT validated by nomic embeddings. Neither single-query cosine similarity nor accumulated Hebbian reinforcement separates true thematic pairs from semantically-close near-misses. The near-miss records that co-fire highly share genuine semantic overlap (names, professions, furniture/DIY, exercise/fitness), and nomic-embed-text-v1.5 maps them close enough that they get reinforced at nearly the same rate as true pairs.",
+    "implication": "The associative layer's Related: section will contain near-misses at near-equal bonus levels to true pairs. This means the 'Related:' block is not a reliable signal of genuine thematic connection — it's a gradient where true pairs have only a marginal edge. The system may benefit from: (1) higher-dimensional embeddings, (2) query-aware weighting (not all top-k records should reinforce equally), (3) temporal decay that differentiates recent co-activation from stale co-activation, or (4) a threshold on the Hebbian bonus that only activates near-miss edges when the bonus gap is large enough."
+  }
+}

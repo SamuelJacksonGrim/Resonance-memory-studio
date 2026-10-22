@@ -1,0 +1,84 @@
+{
+  "version": "4.0b-hermes-v1",
+  "k": 5,
+  "n_records": 325,
+  "n_haystack": 300,
+  "embed_model": "text-embedding-nomic-embed-text-v1.5",
+  "half_life_days": 7,
+  "alpha": 0.1,
+  "max_bonus": 0.3,
+  "schemes": {
+    "divide_by_node_max": {
+      "label": "Divide stored weight by node's max edge weight",
+      "true_avg": 0.21998517904902795,
+      "nm_avg": 0.15808806313245222,
+      "un_avg": 0.006318525747355523,
+      "true_nm_ratio": 1.3915356712588474,
+      "true_un_ratio": 34.81590292499762
+    },
+    "divide_by_node_mean": {
+      "label": "Divide stored weight by node's mean edge weight",
+      "true_avg": 0.29977399033699464,
+      "nm_avg": 0.2568844337642397,
+      "un_avg": 0.017196508689032917,
+      "true_nm_ratio": 1.166960511948021,
+      "true_un_ratio": 17.43225882403535
+    },
+    "zscore_node": {
+      "label": "Z-score within node's neighborhood",
+      "true_avg": 0.2925981321927418,
+      "nm_avg": 0.24589679601464973,
+      "un_avg": 0.17116970535108203,
+      "true_nm_ratio": 1.1899225078772875,
+      "true_un_ratio": 1.7094037265099034
+    },
+    "rank_based": {
+      "label": "Rank-based (fraction of edges below this weight)",
+      "true_avg": 0.27072494026441396,
+      "nm_avg": 0.2360418432444748,
+      "un_avg": 0.018820996513736983,
+      "true_nm_ratio": 1.146936223439066,
+      "true_un_ratio": 14.38419799221675
+    },
+    "softmax_tau_0.1": {
+      "label": "Softmax over node's edges (tau=0.1)",
+      "true_avg": 0.06537882962392456,
+      "nm_avg": 0.020359726791651975,
+      "un_avg": 4.520346732101083e-67,
+      "true_nm_ratio": 3.2111840346861436,
+      "true_un_ratio": 1.446323335323795e+65
+    },
+    "softmax_tau_0.5": {
+      "label": "Softmax over node's edges (tau=0.5)",
+      "true_avg": 0.06922401429659567,
+      "nm_avg": 0.026983908828857154,
+      "un_avg": 2.412747598465888e-16,
+      "true_nm_ratio": 2.565381269839085,
+      "true_un_ratio": 286909473417819.56
+    },
+    "softmax_tau_1": {
+      "label": "Softmax over node's edges (tau=1)",
+      "true_avg": 0.07254852845410147,
+      "nm_avg": 0.03142865012971902,
+      "un_avg": 5.743894346912046e-10,
+      "true_nm_ratio": 2.3083564885753516,
+      "true_un_ratio": 126305471.64068924
+    },
+    "softmax_tau_2": {
+      "label": "Softmax over node's edges (tau=2)",
+      "true_avg": 0.08326212835223967,
+      "nm_avg": 0.036318558056354554,
+      "un_avg": 0.000001171666840753853,
+      "true_nm_ratio": 2.292550497821087,
+      "true_un_ratio": 71062.97238784077
+    },
+    "range_normalize": {
+      "label": "Subtract node's min edge weight (range normalization)",
+      "true_avg": 0.29999999999999993,
+      "nm_avg": 0.29737424485286884,
+      "un_avg": -0.09363309965210788,
+      "true_nm_ratio": 1.0088298001342726,
+      "true_un_ratio": null
+    }
+  }
+}

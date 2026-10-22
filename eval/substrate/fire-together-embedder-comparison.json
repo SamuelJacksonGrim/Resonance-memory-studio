@@ -1,0 +1,137 @@
+{
+  "nomic-embed-text-v1.5": {
+    "presets": {
+      "dedup_hi": 0.9533,
+      "dedup_lo": 0.6758,
+      "field_minsim": 0.4886,
+      "constraint_gate": 0.4886,
+      "save_bind": 0.4886
+    },
+    "separation": {
+      "true_mean": 0.7948,
+      "true_median": 0.7916,
+      "nm_mean": 0.5838,
+      "nm_median": 0.6027,
+      "un_mean": 0.3971,
+      "un_median": 0.3862,
+      "true_vs_nm_gap": 0.211,
+      "true_vs_un_gap": 0.3977,
+      "nm_vs_un_gap": 0.1867
+    },
+    "dim": 768,
+    "num_true": 15,
+    "num_near_miss": 15,
+    "num_unrelated": 270,
+    "true_cosine_hist": {
+      "p05": 0.6758,
+      "p25": 0.7342,
+      "p50": 0.7916,
+      "p75": 0.8466,
+      "p95": 0.9533
+    },
+    "near_miss_cosine_hist": {
+      "p05": 0.3928,
+      "p25": 0.5313,
+      "p50": 0.6027,
+      "p75": 0.6498,
+      "p95": 0.6755
+    },
+    "unrelated_cosine_hist": {
+      "p05": 0.3288,
+      "p25": 0.3584,
+      "p50": 0.3862,
+      "p75": 0.4259,
+      "p95": 0.4886
+    }
+  },
+  "qwen3-embedding-0.6b": {
+    "presets": {
+      "dedup_hi": 0.9365,
+      "dedup_lo": 0.6103,
+      "field_minsim": 0.466,
+      "constraint_gate": 0.466,
+      "save_bind": 0.466
+    },
+    "separation": {
+      "true_mean": 0.7862,
+      "true_median": 0.7917,
+      "nm_mean": 0.5909,
+      "nm_median": 0.5885,
+      "un_mean": 0.3534,
+      "un_median": 0.3546,
+      "true_vs_nm_gap": 0.1953,
+      "true_vs_un_gap": 0.4328,
+      "nm_vs_un_gap": 0.2375
+    },
+    "dim": 1024,
+    "num_true": 15,
+    "num_near_miss": 15,
+    "num_unrelated": 270,
+    "true_cosine_hist": {
+      "p05": 0.6103,
+      "p25": 0.7606,
+      "p50": 0.7917,
+      "p75": 0.8424,
+      "p95": 0.9365
+    },
+    "near_miss_cosine_hist": {
+      "p05": 0.4561,
+      "p25": 0.5577,
+      "p50": 0.5885,
+      "p75": 0.6356,
+      "p95": 0.7048
+    },
+    "unrelated_cosine_hist": {
+      "p05": 0.2426,
+      "p25": 0.3099,
+      "p50": 0.3546,
+      "p75": 0.3954,
+      "p95": 0.466
+    }
+  },
+  "jina-v5-nano": {
+    "presets": {
+      "dedup_hi": 0.8659,
+      "dedup_lo": 0.1,
+      "field_minsim": 0.1,
+      "constraint_gate": 0.1,
+      "save_bind": 0.1
+    },
+    "separation": {
+      "true_mean": 0.5079,
+      "true_median": 0.5879,
+      "nm_mean": 0.2432,
+      "nm_median": 0.2059,
+      "un_mean": 0.1121,
+      "un_median": 0.1063,
+      "true_vs_nm_gap": 0.2647,
+      "true_vs_un_gap": 0.3958,
+      "nm_vs_un_gap": 0.1311
+    },
+    "dim": 768,
+    "num_true": 15,
+    "num_near_miss": 15,
+    "num_unrelated": 270,
+    "true_cosine_hist": {
+      "p05": 0.0466,
+      "p25": 0.1207,
+      "p50": 0.5879,
+      "p75": 0.7269,
+      "p95": 0.8659
+    },
+    "near_miss_cosine_hist": {
+      "p05": 0.0537,
+      "p25": 0.1141,
+      "p50": 0.2059,
+      "p75": 0.4042,
+      "p95": 0.5761
+    },
+    "unrelated_cosine_hist": {
+      "p05": 0.029,
+      "p25": 0.0694,
+      "p50": 0.1063,
+      "p75": 0.1417,
+      "p95": 0.2073
+    }
+  }
+}

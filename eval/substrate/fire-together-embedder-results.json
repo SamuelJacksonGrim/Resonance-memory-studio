@@ -1,0 +1,28 @@
+{
+  "presets": {
+    "nomic-embed-text-v1.5": {
+      "dedup_hi": 0.9533,
+      "dedup_lo": 0.6758,
+      "field_minsim": 0.4886,
+      "constraint_gate": 0.4886,
+      "save_bind": 0.4886,
+      "dim": 768
+    },
+    "qwen3-embedding-0.6b": {
+      "dedup_hi": 0.9365,
+      "dedup_lo": 0.6103,
+      "field_minsim": 0.466,
+      "constraint_gate": 0.466,
+      "save_bind": 0.466,
+      "dim": 1024
+    },
+    "jina-embeddings-v5-text-nano-retrieval": {
+      "dedup_hi": 0.8659,
+      "dedup_lo": 0.0466,
+      "field_minsim": 0.127,
+      "constraint_gate": 0.127,
+      "save_bind": 0.127,
+      "dim": 768
+    }
+  }
+}

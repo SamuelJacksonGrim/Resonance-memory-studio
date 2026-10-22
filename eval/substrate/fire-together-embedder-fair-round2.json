@@ -1,0 +1,1387 @@
+{
+  "haystack": {
+    "nomic__plain": {
+      "h1": 1.0,
+      "nm@5": 0.6419,
+      "true_cf": 0.1638,
+      "nm_cf": 0.1119,
+      "un_cf": 0.0036,
+      "ratio": 1.4642,
+      "theme_nm": {
+        "morning-drink": {
+          "n": 95,
+          "hit": 74,
+          "rate": 0.7789
+        },
+        "climbing": {
+          "n": 95,
+          "hit": 68,
+          "rate": 0.7158
+        },
+        "sister-naima": {
+          "n": 95,
+          "hit": 74,
+          "rate": 0.7789
+        },
+        "bookshelf": {
+          "n": 95,
+          "hit": 84,
+          "rate": 0.8842
+        },
+        "allergy": {
+          "n": 95,
+          "hit": 18,
+          "rate": 0.1895
+        }
+      }
+    },
+    "nomic__search_doc": {
+      "h1": 1.0,
+      "nm@5": 0.5067,
+      "true_cf": 0.1425,
+      "nm_cf": 0.0839,
+      "un_cf": 0.0021,
+      "ratio": 1.6974,
+      "theme_nm": {
+        "morning-drink": {
+          "n": 95,
+          "hit": 61,
+          "rate": 0.6421
+        },
+        "climbing": {
+          "n": 95,
+          "hit": 53,
+          "rate": 0.5579
+        },
+        "sister-naima": {
+          "n": 95,
+          "hit": 70,
+          "rate": 0.7368
+        },
+        "bookshelf": {
+          "n": 95,
+          "hit": 57,
+          "rate": 0.6
+        },
+        "allergy": {
+          "n": 95,
+          "hit": 19,
+          "rate": 0.2
+        }
+      }
+    },
+    "nomic__asymmetric": {
+      "h1": 1.0,
+      "nm@5": 0.8571,
+      "true_cf": 0.1718,
+      "nm_cf": 0.1465,
+      "un_cf": 0.0086,
+      "ratio": 1.1724,
+      "theme_nm": {
+        "morning-drink": {
+          "n": 95,
+          "hit": 95,
+          "rate": 1.0
+        },
+        "climbing": {
+          "n": 95,
+          "hit": 87,
+          "rate": 0.9158
+        },
+        "sister-naima": {
+          "n": 95,
+          "hit": 89,
+          "rate": 0.9368
+        },
+        "bookshelf": {
+          "n": 95,
+          "hit": 85,
+          "rate": 0.8947
+        },
+        "allergy": {
+          "n": 95,
+          "hit": 40,
+          "rate": 0.4211
+        }
+      }
+    },
+    "qwen__plain": {
+      "h1": 0.9981,
+      "nm@5": 0.5771,
+      "true_cf": 0.1566,
+      "nm_cf": 0.1027,
+      "un_cf": 0.0008,
+      "ratio": 1.5241,
+      "theme_nm": {
+        "morning-drink": {
+          "n": 95,
+          "hit": 64,
+          "rate": 0.6737
+        },
+        "climbing": {
+          "n": 95,
+          "hit": 37,
+          "rate": 0.3895
+        },
+        "sister-naima": {
+          "n": 95,
+          "hit": 81,
+          "rate": 0.8526
+        },
+        "bookshelf": {
+          "n": 95,
+          "hit": 86,
+          "rate": 0.9053
+        },
+        "allergy": {
+          "n": 95,
+          "hit": 33,
+          "rate": 0.3474
+        }
+      }
+    },
+    "qwen__default_query": {
+      "h1": 1.0,
+      "nm@5": 0.619,
+      "true_cf": 0.1669,
+      "nm_cf": 0.1152,
+      "un_cf": 0.0018,
+      "ratio": 1.4487,
+      "theme_nm": {
+        "morning-drink": {
+          "n": 95,
+          "hit": 58,
+          "rate": 0.6105
+        },
+        "climbing": {
+          "n": 95,
+          "hit": 69,
+          "rate": 0.7263
+        },
+        "sister-naima": {
+          "n": 95,
+          "hit": 86,
+          "rate": 0.9053
+        },
+        "bookshelf": {
+          "n": 95,
+          "hit": 86,
+          "rate": 0.9053
+        },
+        "allergy": {
+          "n": 95,
+          "hit": 24,
+          "rate": 0.2526
+        }
+      }
+    },
+    "qwen__cluster_both": {
+      "h1": 1.0,
+      "nm@5": 0.6076,
+      "true_cf": 0.1614,
+      "nm_cf": 0.1079,
+      "un_cf": 0.0022,
+      "ratio": 1.4953,
+      "theme_nm": {
+        "morning-drink": {
+          "n": 95,
+          "hit": 80,
+          "rate": 0.8421
+        },
+        "climbing": {
+          "n": 95,
+          "hit": 41,
+          "rate": 0.4316
+        },
+        "sister-naima": {
+          "n": 95,
+          "hit": 86,
+          "rate": 0.9053
+        },
+        "bookshelf": {
+          "n": 95,
+          "hit": 77,
+          "rate": 0.8105
+        },
+        "allergy": {
+          "n": 95,
+          "hit": 34,
+          "rate": 0.3579
+        }
+      }
+    },
+    "jina__document_both": {
+      "h1": 1.0,
+      "nm@5": 0.5943,
+      "true_cf": 0.1567,
+      "nm_cf": 0.1054,
+      "un_cf": 0.0015,
+      "ratio": 1.4867,
+      "theme_nm": {
+        "morning-drink": {
+          "n": 95,
+          "hit": 56,
+          "rate": 0.5895
+        },
+        "climbing": {
+          "n": 95,
+          "hit": 52,
+          "rate": 0.5474
+        },
+        "sister-naima": {
+          "n": 95,
+          "hit": 70,
+          "rate": 0.7368
+        },
+        "bookshelf": {
+          "n": 95,
+          "hit": 87,
+          "rate": 0.9158
+        },
+        "allergy": {
+          "n": 95,
+          "hit": 44,
+          "rate": 0.4632
+        }
+      }
+    },
+    "jina__asymmetric": {
+      "h1": 1.0,
+      "nm@5": 0.5905,
+      "true_cf": 0.1614,
+      "nm_cf": 0.105,
+      "un_cf": 0.0017,
+      "ratio": 1.5369,
+      "theme_nm": {
+        "morning-drink": {
+          "n": 95,
+          "hit": 44,
+          "rate": 0.4632
+        },
+        "climbing": {
+          "n": 95,
+          "hit": 62,
+          "rate": 0.6526
+        },
+        "sister-naima": {
+          "n": 95,
+          "hit": 84,
+          "rate": 0.8842
+        },
+        "bookshelf": {
+          "n": 95,
+          "hit": 87,
+          "rate": 0.9158
+        },
+        "allergy": {
+          "n": 95,
+          "hit": 27,
+          "rate": 0.2842
+        }
+      }
+    }
+  },
+  "qfilter": {
+    "nomic__plain": {
+      "h1": 0.9962,
+      "nm@5": 0.3048,
+      "true_cf": 0.1515,
+      "nm_cf": 0.0171,
+      "un_cf": 0.0036,
+      "ratio": 8.837,
+      "theme_nm": {
+        "morning-drink": {
+          "n": 95,
+          "hit": 26,
+          "rate": 0.2737
+        },
+        "climbing": {
+          "n": 95,
+          "hit": 16,
+          "rate": 0.1684
+        },
+        "sister-naima": {
+          "n": 95,
+          "hit": 24,
+          "rate": 0.2526
+        },
+        "bookshelf": {
+          "n": 95,
+          "hit": 19,
+          "rate": 0.2
+        },
+        "allergy": {
+          "n": 95,
+          "hit": 15,
+          "rate": 0.1579
+        }
+      }
+    },
+    "nomic__search_doc": {
+      "h1": 0.9962,
+      "nm@5": 0.2533,
+      "true_cf": 0.1331,
+      "nm_cf": 0.0105,
+      "un_cf": 0.0019,
+      "ratio": 12.6265,
+      "theme_nm": {
+        "morning-drink": {
+          "n": 95,
+          "hit": 20,
+          "rate": 0.2105
+        },
+        "climbing": {
+          "n": 95,
+          "hit": 14,
+          "rate": 0.1474
+        },
+        "sister-naima": {
+          "n": 95,
+          "hit": 28,
+          "rate": 0.2947
+        },
+        "bookshelf": {
+          "n": 95,
+          "hit": 15,
+          "rate": 0.1579
+        },
+        "allergy": {
+          "n": 95,
+          "hit": 15,
+          "rate": 0.1579
+        }
+      }
+    },
+    "nomic__asymmetric": {
+      "h1": 0.9962,
+      "nm@5": 0.5429,
+      "true_cf": 0.1581,
+      "nm_cf": 0.0291,
+      "un_cf": 0.0093,
+      "ratio": 5.4367,
+      "theme_nm": {
+        "morning-drink": {
+          "n": 95,
+          "hit": 33,
+          "rate": 0.3474
+        },
+        "climbing": {
+          "n": 95,
+          "hit": 18,
+          "rate": 0.1895
+        },
+        "sister-naima": {
+          "n": 95,
+          "hit": 32,
+          "rate": 0.3368
+        },
+        "bookshelf": {
+          "n": 95,
+          "hit": 19,
+          "rate": 0.2
+        },
+        "allergy": {
+          "n": 95,
+          "hit": 17,
+          "rate": 0.1789
+        }
+      }
+    },
+    "qwen__plain": {
+      "h1": 0.9943,
+      "nm@5": 0.2095,
+      "true_cf": 0.1449,
+      "nm_cf": 0.0147,
+      "un_cf": 0.0008,
+      "ratio": 9.8362,
+      "theme_nm": {
+        "morning-drink": {
+          "n": 95,
+          "hit": 24,
+          "rate": 0.2526
+        },
+        "climbing": {
+          "n": 95,
+          "hit": 14,
+          "rate": 0.1474
+        },
+        "sister-naima": {
+          "n": 95,
+          "hit": 24,
+          "rate": 0.2526
+        },
+        "bookshelf": {
+          "n": 95,
+          "hit": 20,
+          "rate": 0.2105
+        },
+        "allergy": {
+          "n": 95,
+          "hit": 20,
+          "rate": 0.2105
+        }
+      }
+    },
+    "qwen__default_query": {
+      "h1": 0.9981,
+      "nm@5": 0.2362,
+      "true_cf": 0.1538,
+      "nm_cf": 0.0223,
+      "un_cf": 0.0016,
+      "ratio": 6.8807,
+      "theme_nm": {
+        "morning-drink": {
+          "n": 95,
+          "hit": 27,
+          "rate": 0.2842
+        },
+        "climbing": {
+          "n": 95,
+          "hit": 16,
+          "rate": 0.1684
+        },
+        "sister-naima": {
+          "n": 95,
+          "hit": 33,
+          "rate": 0.3474
+        },
+        "bookshelf": {
+          "n": 95,
+          "hit": 21,
+          "rate": 0.2211
+        },
+        "allergy": {
+          "n": 95,
+          "hit": 18,
+          "rate": 0.1895
+        }
+      }
+    },
+    "qwen__cluster_both": {
+      "h1": 0.9962,
+      "nm@5": 0.2343,
+      "true_cf": 0.1514,
+      "nm_cf": 0.0188,
+      "un_cf": 0.0023,
+      "ratio": 8.0541,
+      "theme_nm": {
+        "morning-drink": {
+          "n": 95,
+          "hit": 26,
+          "rate": 0.2737
+        },
+        "climbing": {
+          "n": 95,
+          "hit": 15,
+          "rate": 0.1579
+        },
+        "sister-naima": {
+          "n": 95,
+          "hit": 35,
+          "rate": 0.3684
+        },
+        "bookshelf": {
+          "n": 95,
+          "hit": 17,
+          "rate": 0.1789
+        },
+        "allergy": {
+          "n": 95,
+          "hit": 19,
+          "rate": 0.2
+        }
+      }
+    },
+    "jina__document_both": {
+      "h1": 1.0,
+      "nm@5": 0.2819,
+      "true_cf": 0.145,
+      "nm_cf": 0.0274,
+      "un_cf": 0.0015,
+      "ratio": 5.287,
+      "theme_nm": {
+        "morning-drink": {
+          "n": 95,
+          "hit": 24,
+          "rate": 0.2526
+        },
+        "climbing": {
+          "n": 95,
+          "hit": 17,
+          "rate": 0.1789
+        },
+        "sister-naima": {
+          "n": 95,
+          "hit": 33,
+          "rate": 0.3474
+        },
+        "bookshelf": {
+          "n": 95,
+          "hit": 43,
+          "rate": 0.4526
+        },
+        "allergy": {
+          "n": 95,
+          "hit": 19,
+          "rate": 0.2
+        }
+      }
+    },
+    "jina__asymmetric": {
+      "h1": 1.0,
+      "nm@5": 0.2648,
+      "true_cf": 0.1482,
+      "nm_cf": 0.0255,
+      "un_cf": 0.0017,
+      "ratio": 5.806,
+      "theme_nm": {
+        "morning-drink": {
+          "n": 95,
+          "hit": 25,
+          "rate": 0.2632
+        },
+        "climbing": {
+          "n": 95,
+          "hit": 19,
+          "rate": 0.2
+        },
+        "sister-naima": {
+          "n": 95,
+          "hit": 38,
+          "rate": 0.4
+        },
+        "bookshelf": {
+          "n": 95,
+          "hit": 29,
+          "rate": 0.3053
+        },
+        "allergy": {
+          "n": 95,
+          "hit": 17,
+          "rate": 0.1789
+        }
+      }
+    }
+  },
+  "field_knn": {
+    "nomic__plain": {
+      "at_0.55": {
+        "min_sim": 0.55,
+        "k": 3,
+        "true_edges": 30,
+        "true_possible": 30,
+        "true_recall": 1.0,
+        "nm_leaks": 11,
+        "nm_rate": 0.7333,
+        "un_leaks": 0
+      },
+      "at_0.65": {
+        "min_sim": 0.65,
+        "k": 3,
+        "true_edges": 30,
+        "true_possible": 30,
+        "true_recall": 1.0,
+        "nm_leaks": 4,
+        "nm_rate": 0.2667,
+        "un_leaks": 0
+      },
+      "at_0.70": {
+        "min_sim": 0.7,
+        "k": 3,
+        "true_edges": 28,
+        "true_possible": 30,
+        "true_recall": 0.9333,
+        "nm_leaks": 0,
+        "nm_rate": 0.0,
+        "un_leaks": 0,
+        "nm_edges": []
+      }
+    },
+    "nomic__search_doc": {
+      "at_0.55": {
+        "min_sim": 0.55,
+        "k": 3,
+        "true_edges": 30,
+        "true_possible": 30,
+        "true_recall": 1.0,
+        "nm_leaks": 12,
+        "nm_rate": 0.8,
+        "un_leaks": 3
+      },
+      "at_0.65": {
+        "min_sim": 0.65,
+        "k": 3,
+        "true_edges": 30,
+        "true_possible": 30,
+        "true_recall": 1.0,
+        "nm_leaks": 10,
+        "nm_rate": 0.6667,
+        "un_leaks": 0
+      },
+      "at_0.70": {
+        "min_sim": 0.7,
+        "k": 3,
+        "true_edges": 30,
+        "true_possible": 30,
+        "true_recall": 1.0,
+        "nm_leaks": 5,
+        "nm_rate": 0.3333,
+        "un_leaks": 0,
+        "nm_edges": [
+          {
+            "a": "t1_m1",
+            "b": "t1_nm",
+            "cos": 0.7346,
+            "role": "near-miss",
+            "theme": "morning-drink"
+          },
+          {
+            "a": "t2_m1",
+            "b": "t2_nm",
+            "cos": 0.7436,
+            "role": "near-miss",
+            "theme": "climbing"
+          },
+          {
+            "a": "t2_m2",
+            "b": "t2_nm",
+            "cos": 0.7208,
+            "role": "near-miss",
+            "theme": "climbing"
+          },
+          {
+            "a": "t3_m1",
+            "b": "t3_nm",
+            "cos": 0.7337,
+            "role": "near-miss",
+            "theme": "sister-naima"
+          },
+          {
+            "a": "t3_m2",
+            "b": "t3_nm",
+            "cos": 0.7739,
+            "role": "near-miss",
+            "theme": "sister-naima"
+          }
+        ]
+      }
+    },
+    "nomic__asymmetric": {
+      "at_0.55": {
+        "min_sim": 0.55,
+        "k": 3,
+        "true_edges": 30,
+        "true_possible": 30,
+        "true_recall": 1.0,
+        "nm_leaks": 12,
+        "nm_rate": 0.8,
+        "un_leaks": 3
+      },
+      "at_0.65": {
+        "min_sim": 0.65,
+        "k": 3,
+        "true_edges": 30,
+        "true_possible": 30,
+        "true_recall": 1.0,
+        "nm_leaks": 10,
+        "nm_rate": 0.6667,
+        "un_leaks": 0
+      },
+      "at_0.70": {
+        "min_sim": 0.7,
+        "k": 3,
+        "true_edges": 30,
+        "true_possible": 30,
+        "true_recall": 1.0,
+        "nm_leaks": 5,
+        "nm_rate": 0.3333,
+        "un_leaks": 0,
+        "nm_edges": [
+          {
+            "a": "t1_m1",
+            "b": "t1_nm",
+            "cos": 0.7346,
+            "role": "near-miss",
+            "theme": "morning-drink"
+          },
+          {
+            "a": "t2_m1",
+            "b": "t2_nm",
+            "cos": 0.7436,
+            "role": "near-miss",
+            "theme": "climbing"
+          },
+          {
+            "a": "t2_m2",
+            "b": "t2_nm",
+            "cos": 0.7208,
+            "role": "near-miss",
+            "theme": "climbing"
+          },
+          {
+            "a": "t3_m1",
+            "b": "t3_nm",
+            "cos": 0.7337,
+            "role": "near-miss",
+            "theme": "sister-naima"
+          },
+          {
+            "a": "t3_m2",
+            "b": "t3_nm",
+            "cos": 0.7739,
+            "role": "near-miss",
+            "theme": "sister-naima"
+          }
+        ]
+      }
+    },
+    "qwen__plain": {
+      "at_0.55": {
+        "min_sim": 0.55,
+        "k": 3,
+        "true_edges": 30,
+        "true_possible": 30,
+        "true_recall": 1.0,
+        "nm_leaks": 13,
+        "nm_rate": 0.8667,
+        "un_leaks": 0
+      },
+      "at_0.65": {
+        "min_sim": 0.65,
+        "k": 3,
+        "true_edges": 28,
+        "true_possible": 30,
+        "true_recall": 0.9333,
+        "nm_leaks": 2,
+        "nm_rate": 0.1333,
+        "un_leaks": 0
+      },
+      "at_0.70": {
+        "min_sim": 0.7,
+        "k": 3,
+        "true_edges": 24,
+        "true_possible": 30,
+        "true_recall": 0.8,
+        "nm_leaks": 1,
+        "nm_rate": 0.0667,
+        "un_leaks": 0,
+        "nm_edges": [
+          {
+            "a": "t1_m1",
+            "b": "t1_nm",
+            "cos": 0.7051,
+            "role": "near-miss",
+            "theme": "morning-drink"
+          }
+        ]
+      }
+    },
+    "qwen__default_query": {
+      "at_0.55": {
+        "min_sim": 0.55,
+        "k": 3,
+        "true_edges": 30,
+        "true_possible": 30,
+        "true_recall": 1.0,
+        "nm_leaks": 13,
+        "nm_rate": 0.8667,
+        "un_leaks": 0
+      },
+      "at_0.65": {
+        "min_sim": 0.65,
+        "k": 3,
+        "true_edges": 28,
+        "true_possible": 30,
+        "true_recall": 0.9333,
+        "nm_leaks": 2,
+        "nm_rate": 0.1333,
+        "un_leaks": 0
+      },
+      "at_0.70": {
+        "min_sim": 0.7,
+        "k": 3,
+        "true_edges": 24,
+        "true_possible": 30,
+        "true_recall": 0.8,
+        "nm_leaks": 1,
+        "nm_rate": 0.0667,
+        "un_leaks": 0,
+        "nm_edges": [
+          {
+            "a": "t1_m1",
+            "b": "t1_nm",
+            "cos": 0.7051,
+            "role": "near-miss",
+            "theme": "morning-drink"
+          }
+        ]
+      }
+    },
+    "qwen__cluster_both": {
+      "at_0.55": {
+        "min_sim": 0.55,
+        "k": 3,
+        "true_edges": 30,
+        "true_possible": 30,
+        "true_recall": 1.0,
+        "nm_leaks": 11,
+        "nm_rate": 0.7333,
+        "un_leaks": 0
+      },
+      "at_0.65": {
+        "min_sim": 0.65,
+        "k": 3,
+        "true_edges": 28,
+        "true_possible": 30,
+        "true_recall": 0.9333,
+        "nm_leaks": 1,
+        "nm_rate": 0.0667,
+        "un_leaks": 0
+      },
+      "at_0.70": {
+        "min_sim": 0.7,
+        "k": 3,
+        "true_edges": 28,
+        "true_possible": 30,
+        "true_recall": 0.9333,
+        "nm_leaks": 0,
+        "nm_rate": 0.0,
+        "un_leaks": 0,
+        "nm_edges": []
+      }
+    },
+    "jina__document_both": {
+      "at_0.55": {
+        "min_sim": 0.55,
+        "k": 3,
+        "true_edges": 28,
+        "true_possible": 30,
+        "true_recall": 0.9333,
+        "nm_leaks": 1,
+        "nm_rate": 0.0667,
+        "un_leaks": 0
+      },
+      "at_0.65": {
+        "min_sim": 0.65,
+        "k": 3,
+        "true_edges": 24,
+        "true_possible": 30,
+        "true_recall": 0.8,
+        "nm_leaks": 0,
+        "nm_rate": 0.0,
+        "un_leaks": 0
+      },
+      "at_0.70": {
+        "min_sim": 0.7,
+        "k": 3,
+        "true_edges": 24,
+        "true_possible": 30,
+        "true_recall": 0.8,
+        "nm_leaks": 0,
+        "nm_rate": 0.0,
+        "un_leaks": 0,
+        "nm_edges": []
+      }
+    },
+    "jina__asymmetric": {
+      "at_0.55": {
+        "min_sim": 0.55,
+        "k": 3,
+        "true_edges": 28,
+        "true_possible": 30,
+        "true_recall": 0.9333,
+        "nm_leaks": 1,
+        "nm_rate": 0.0667,
+        "un_leaks": 0
+      },
+      "at_0.65": {
+        "min_sim": 0.65,
+        "k": 3,
+        "true_edges": 24,
+        "true_possible": 30,
+        "true_recall": 0.8,
+        "nm_leaks": 0,
+        "nm_rate": 0.0,
+        "un_leaks": 0
+      },
+      "at_0.70": {
+        "min_sim": 0.7,
+        "k": 3,
+        "true_edges": 24,
+        "true_possible": 30,
+        "true_recall": 0.8,
+        "nm_leaks": 0,
+        "nm_rate": 0.0,
+        "un_leaks": 0,
+        "nm_edges": []
+      }
+    }
+  },
+  "rrf_hay": {
+    "nomic__plain": {
+      "h1": 0.9943,
+      "nm@5": 0.4781,
+      "true_cf": 0.146,
+      "nm_cf": 0.0725,
+      "un_cf": 0.0039,
+      "ratio": 2.014,
+      "theme_nm": {}
+    },
+    "nomic__search_doc": {
+      "h1": 0.9943,
+      "nm@5": 0.4343,
+      "true_cf": 0.141,
+      "nm_cf": 0.0657,
+      "un_cf": 0.0022,
+      "ratio": 2.147,
+      "theme_nm": {}
+    },
+    "nomic__asymmetric": {
+      "h1": 0.9905,
+      "nm@5": 0.539,
+      "true_cf": 0.1446,
+      "nm_cf": 0.0752,
+      "un_cf": 0.0053,
+      "ratio": 1.924,
+      "theme_nm": {}
+    },
+    "qwen__plain": {
+      "h1": 0.9943,
+      "nm@5": 0.4629,
+      "true_cf": 0.1445,
+      "nm_cf": 0.0758,
+      "un_cf": 0.0018,
+      "ratio": 1.9062,
+      "theme_nm": {}
+    },
+    "qwen__default_query": {
+      "h1": 0.9943,
+      "nm@5": 0.48,
+      "true_cf": 0.1449,
+      "nm_cf": 0.0772,
+      "un_cf": 0.0022,
+      "ratio": 1.8766,
+      "theme_nm": {}
+    },
+    "qwen__cluster_both": {
+      "h1": 0.9905,
+      "nm@5": 0.4629,
+      "true_cf": 0.1437,
+      "nm_cf": 0.0742,
+      "un_cf": 0.0026,
+      "ratio": 1.9384,
+      "theme_nm": {}
+    },
+    "jina__document_both": {
+      "h1": 0.9924,
+      "nm@5": 0.4686,
+      "true_cf": 0.1439,
+      "nm_cf": 0.0749,
+      "un_cf": 0.003,
+      "ratio": 1.9203,
+      "theme_nm": {}
+    },
+    "jina__asymmetric": {
+      "h1": 0.9924,
+      "nm@5": 0.5029,
+      "true_cf": 0.1448,
+      "nm_cf": 0.0806,
+      "un_cf": 0.0031,
+      "ratio": 1.7953,
+      "theme_nm": {}
+    }
+  },
+  "ensemble": {
+    "nomic+jina": {
+      "h1": 1.0,
+      "nm@5": 0.6571,
+      "true_cf": 0.1615,
+      "nm_cf": 0.1154,
+      "un_cf": 0.0027,
+      "ratio": 1.3993,
+      "theme_nm": {}
+    },
+    "nomic+jina+bm25": {
+      "h1": 1.0,
+      "nm@5": 0.539,
+      "true_cf": 0.1535,
+      "nm_cf": 0.0905,
+      "un_cf": 0.0034,
+      "ratio": 1.6957,
+      "theme_nm": {}
+    }
+  },
+  "qdoc": {
+    "nomic__plain": {
+      "allergy": {
+        "q_to_member_mean": 0.7371,
+        "q_to_nm_mean": 0.4198,
+        "margin": 0.3173,
+        "nm_mean_rank": 37.3,
+        "nm_in_top5": 0.05
+      },
+      "bookshelf": {
+        "q_to_member_mean": 0.758,
+        "q_to_nm_mean": 0.5596,
+        "margin": 0.1985,
+        "nm_mean_rank": 4.4667,
+        "nm_in_top5": 0.8333
+      },
+      "climbing": {
+        "q_to_member_mean": 0.7839,
+        "q_to_nm_mean": 0.5794,
+        "margin": 0.2044,
+        "nm_mean_rank": 5.05,
+        "nm_in_top5": 0.8333
+      },
+      "morning-drink": {
+        "q_to_member_mean": 0.7527,
+        "q_to_nm_mean": 0.5715,
+        "margin": 0.1812,
+        "nm_mean_rank": 5.1833,
+        "nm_in_top5": 0.7167
+      },
+      "sister-naima": {
+        "q_to_member_mean": 0.7841,
+        "q_to_nm_mean": 0.6161,
+        "margin": 0.168,
+        "nm_mean_rank": 8.5333,
+        "nm_in_top5": 0.7167
+      }
+    },
+    "nomic__search_doc": {
+      "allergy": {
+        "q_to_member_mean": 0.7806,
+        "q_to_nm_mean": 0.5414,
+        "margin": 0.2392,
+        "nm_mean_rank": 86.3833,
+        "nm_in_top5": 0.0667
+      },
+      "bookshelf": {
+        "q_to_member_mean": 0.7876,
+        "q_to_nm_mean": 0.5973,
+        "margin": 0.1903,
+        "nm_mean_rank": 21.7333,
+        "nm_in_top5": 0.55
+      },
+      "climbing": {
+        "q_to_member_mean": 0.8291,
+        "q_to_nm_mean": 0.6623,
+        "margin": 0.1668,
+        "nm_mean_rank": 15.8333,
+        "nm_in_top5": 0.6333
+      },
+      "morning-drink": {
+        "q_to_member_mean": 0.7866,
+        "q_to_nm_mean": 0.6586,
+        "margin": 0.128,
+        "nm_mean_rank": 13.0833,
+        "nm_in_top5": 0.7
+      },
+      "sister-naima": {
+        "q_to_member_mean": 0.8132,
+        "q_to_nm_mean": 0.6796,
+        "margin": 0.1336,
+        "nm_mean_rank": 21.6333,
+        "nm_in_top5": 0.6667
+      }
+    },
+    "nomic__asymmetric": {
+      "allergy": {
+        "q_to_member_mean": 0.7156,
+        "q_to_nm_mean": 0.4898,
+        "margin": 0.2258,
+        "nm_mean_rank": 8.0,
+        "nm_in_top5": 0.35
+      },
+      "bookshelf": {
+        "q_to_member_mean": 0.7399,
+        "q_to_nm_mean": 0.5497,
+        "margin": 0.1902,
+        "nm_mean_rank": 4.6167,
+        "nm_in_top5": 0.85
+      },
+      "climbing": {
+        "q_to_member_mean": 0.7645,
+        "q_to_nm_mean": 0.5934,
+        "margin": 0.171,
+        "nm_mean_rank": 4.0833,
+        "nm_in_top5": 0.9667
+      },
+      "morning-drink": {
+        "q_to_member_mean": 0.7559,
+        "q_to_nm_mean": 0.6131,
+        "margin": 0.1428,
+        "nm_mean_rank": 3.75,
+        "nm_in_top5": 1.0
+      },
+      "sister-naima": {
+        "q_to_member_mean": 0.7597,
+        "q_to_nm_mean": 0.6452,
+        "margin": 0.1145,
+        "nm_mean_rank": 6.9333,
+        "nm_in_top5": 0.95
+      }
+    },
+    "qwen__plain": {
+      "allergy": {
+        "q_to_member_mean": 0.7289,
+        "q_to_nm_mean": 0.4375,
+        "margin": 0.2914,
+        "nm_mean_rank": 16.5667,
+        "nm_in_top5": 0.1833
+      },
+      "bookshelf": {
+        "q_to_member_mean": 0.749,
+        "q_to_nm_mean": 0.5985,
+        "margin": 0.1505,
+        "nm_mean_rank": 4.2833,
+        "nm_in_top5": 0.8833
+      },
+      "climbing": {
+        "q_to_member_mean": 0.7448,
+        "q_to_nm_mean": 0.5267,
+        "margin": 0.2181,
+        "nm_mean_rank": 14.1833,
+        "nm_in_top5": 0.3667
+      },
+      "morning-drink": {
+        "q_to_member_mean": 0.7359,
+        "q_to_nm_mean": 0.5637,
+        "margin": 0.1722,
+        "nm_mean_rank": 9.1667,
+        "nm_in_top5": 0.6
+      },
+      "sister-naima": {
+        "q_to_member_mean": 0.7546,
+        "q_to_nm_mean": 0.5971,
+        "margin": 0.1575,
+        "nm_mean_rank": 16.6667,
+        "nm_in_top5": 0.8333
+      }
+    },
+    "qwen__default_query": {
+      "allergy": {
+        "q_to_member_mean": 0.6019,
+        "q_to_nm_mean": 0.2548,
+        "margin": 0.347,
+        "nm_mean_rank": 23.3333,
+        "nm_in_top5": 0.0667
+      },
+      "bookshelf": {
+        "q_to_member_mean": 0.6381,
+        "q_to_nm_mean": 0.4258,
+        "margin": 0.2123,
+        "nm_mean_rank": 4.4667,
+        "nm_in_top5": 0.85
+      },
+      "climbing": {
+        "q_to_member_mean": 0.6897,
+        "q_to_nm_mean": 0.3996,
+        "margin": 0.2901,
+        "nm_mean_rank": 5.9,
+        "nm_in_top5": 0.7333
+      },
+      "morning-drink": {
+        "q_to_member_mean": 0.6113,
+        "q_to_nm_mean": 0.3911,
+        "margin": 0.2203,
+        "nm_mean_rank": 7.2,
+        "nm_in_top5": 0.5667
+      },
+      "sister-naima": {
+        "q_to_member_mean": 0.7045,
+        "q_to_nm_mean": 0.5429,
+        "margin": 0.1616,
+        "nm_mean_rank": 13.5667,
+        "nm_in_top5": 0.9167
+      }
+    },
+    "qwen__cluster_both": {
+      "allergy": {
+        "q_to_member_mean": 0.7684,
+        "q_to_nm_mean": 0.4413,
+        "margin": 0.3271,
+        "nm_mean_rank": 13.05,
+        "nm_in_top5": 0.2333
+      },
+      "bookshelf": {
+        "q_to_member_mean": 0.7472,
+        "q_to_nm_mean": 0.5098,
+        "margin": 0.2374,
+        "nm_mean_rank": 6.1333,
+        "nm_in_top5": 0.7833
+      },
+      "climbing": {
+        "q_to_member_mean": 0.7896,
+        "q_to_nm_mean": 0.5564,
+        "margin": 0.2332,
+        "nm_mean_rank": 9.1667,
+        "nm_in_top5": 0.4333
+      },
+      "morning-drink": {
+        "q_to_member_mean": 0.7664,
+        "q_to_nm_mean": 0.5785,
+        "margin": 0.1879,
+        "nm_mean_rank": 5.5,
+        "nm_in_top5": 0.8167
+      },
+      "sister-naima": {
+        "q_to_member_mean": 0.7724,
+        "q_to_nm_mean": 0.6045,
+        "margin": 0.1679,
+        "nm_mean_rank": 21.7833,
+        "nm_in_top5": 0.9167
+      }
+    },
+    "jina__document_both": {
+      "allergy": {
+        "q_to_member_mean": 0.7155,
+        "q_to_nm_mean": 0.2976,
+        "margin": 0.4179,
+        "nm_mean_rank": 11.5,
+        "nm_in_top5": 0.2833
+      },
+      "bookshelf": {
+        "q_to_member_mean": 0.709,
+        "q_to_nm_mean": 0.4562,
+        "margin": 0.2527,
+        "nm_mean_rank": 5.2,
+        "nm_in_top5": 0.9
+      },
+      "climbing": {
+        "q_to_member_mean": 0.7283,
+        "q_to_nm_mean": 0.4198,
+        "margin": 0.3085,
+        "nm_mean_rank": 7.4333,
+        "nm_in_top5": 0.6167
+      },
+      "morning-drink": {
+        "q_to_member_mean": 0.7029,
+        "q_to_nm_mean": 0.4499,
+        "margin": 0.253,
+        "nm_mean_rank": 8.15,
+        "nm_in_top5": 0.4167
+      },
+      "sister-naima": {
+        "q_to_member_mean": 0.7068,
+        "q_to_nm_mean": 0.4787,
+        "margin": 0.2281,
+        "nm_mean_rank": 9.3,
+        "nm_in_top5": 0.65
+      }
+    },
+    "jina__asymmetric": {
+      "allergy": {
+        "q_to_member_mean": 0.6263,
+        "q_to_nm_mean": 0.1789,
+        "margin": 0.4474,
+        "nm_mean_rank": 18.9167,
+        "nm_in_top5": 0.1167
+      },
+      "bookshelf": {
+        "q_to_member_mean": 0.6504,
+        "q_to_nm_mean": 0.3637,
+        "margin": 0.2867,
+        "nm_mean_rank": 5.7333,
+        "nm_in_top5": 0.9
+      },
+      "climbing": {
+        "q_to_member_mean": 0.6761,
+        "q_to_nm_mean": 0.3432,
+        "margin": 0.3329,
+        "nm_mean_rank": 5.9,
+        "nm_in_top5": 0.7
+      },
+      "morning-drink": {
+        "q_to_member_mean": 0.6346,
+        "q_to_nm_mean": 0.3359,
+        "margin": 0.2986,
+        "nm_mean_rank": 9.25,
+        "nm_in_top5": 0.25
+      },
+      "sister-naima": {
+        "q_to_member_mean": 0.6741,
+        "q_to_nm_mean": 0.474,
+        "margin": 0.2001,
+        "nm_mean_rank": 5.6667,
+        "nm_in_top5": 0.8833
+      }
+    }
+  },
+  "reinforce_hay": {
+    "nomic__plain": {
+      "equal": {
+        "session": 9,
+        "w_true": 57.4,
+        "w_nm": 37.4,
+        "w_un": 1.1704,
+        "w_ratio": 1.5348,
+        "bonus_ratio": 1.001,
+        "norm_ratio": 1.4081,
+        "norm_un": 0.0059
+      },
+      "weighted": {
+        "session": 9,
+        "w_true": 24.1402,
+        "w_nm": 3.9076,
+        "w_un": 0.0278,
+        "w_ratio": 6.1777,
+        "bonus_ratio": 1.3883,
+        "norm_ratio": 5.4168,
+        "norm_un": 0.0005
+      }
+    },
+    "nomic__plain_gate070": {
+      "equal": {
+        "session": 9,
+        "w_true": 57.4,
+        "w_nm": 37.4,
+        "w_un": 1.1704,
+        "w_ratio": 1.5348,
+        "bonus_ratio": 1.001,
+        "norm_ratio": 1.4081,
+        "norm_un": 0.0059
+      },
+      "weighted": {
+        "session": 9,
+        "w_true": 14.3956,
+        "w_nm": 0.0,
+        "w_un": 0.0,
+        "w_ratio": null,
+        "bonus_ratio": null,
+        "norm_ratio": null,
+        "norm_un": 0.0
+      }
+    },
+    "jina__document_both": {
+      "equal": {
+        "session": 9,
+        "w_true": 55.8667,
+        "w_nm": 34.3333,
+        "w_un": 0.4889,
+        "w_ratio": 1.6272,
+        "bonus_ratio": 1.0,
+        "norm_ratio": 1.433,
+        "norm_un": 0.0027
+      },
+      "weighted": {
+        "session": 9,
+        "w_true": 25.1284,
+        "w_nm": 3.8447,
+        "w_un": 0.0057,
+        "w_ratio": 6.5358,
+        "bonus_ratio": 1.2214,
+        "norm_ratio": 4.8682,
+        "norm_un": 0.0001
+      }
+    }
+  },
+  "notes": [
+    "Haystack (300 distractors, seed 42) is the honest cofire test; 25-record nm@5 was saturated.",
+    "Query-conditioned entity filter subtracts 0.15/0.30 from a candidate if the QUERY and the DOC have conflicting relation/category buckets.",
+    "Field kNN is the Related: gate (doc-doc), independent of cofire. 0.55 is production; 0.70 is scan-best on nomic plain.",
+    "Ensemble is RRF of nomic-plain ranks and jina-document ranks (incommensurable cosine scales \u2014 ranks only).",
+    "Weighted reinforce on the haystack store: alpha scaled by how far doc-doc cosine sits above the gate. Unrelated must stay low."
+  ]
+}
